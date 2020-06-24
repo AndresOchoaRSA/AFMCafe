@@ -1,7 +1,14 @@
+# Title     : TODO
+# Objective : TODO
+# Created by: japeto
+# Created on:
 
+setwd("/Users/macbookpro/Downloads/afmnacafe")
 
-read.table("/Users/macbookpro/Downloads/afmnacafe/coffe_arabica_robusta_June_2020.csv",header=T,sep=";",
-dec=".",row.names=1) -> dat.act
+source("R/environment.R")
+source("R/simulate.data.R")
+
+read.table("data/arabica_robusta.csv",header=T,sep=";", dec=".",row.names=1) -> dat.act
 
 summary(dat.act)
 dim(dat.act)
@@ -98,9 +105,6 @@ new.xx.30na <- cbind(dat.act[-1340,1:2],res.imputeMFA.30$completeObs)
 res.MFA.30na.complete <- MFA(new.xx.30na,group=c(2,6,3,2),type=c("n","s","s","s"),
 name=c("origen","sabor","presentacion.copa","juicio"),
 num.group.sup=1)
-
-
-
 
 ########### Comparación del método en función del porcentaje de na ###########################
 

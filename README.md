@@ -17,3 +17,8 @@ For this reason, When the data was scrapped, any fields are deleted up with the 
 As conclusion the MFA is an interesting and useful method, it makes it possible to analyze complex data sets, and because it provides many graphical results: we can visualize variables grouped, according to the observations. In this coffe quality application, we set a proof of concepts around the behavior of MFA algorithms with a quickly discussion.
 
 
+## Getting started
+
+First load 
+
+

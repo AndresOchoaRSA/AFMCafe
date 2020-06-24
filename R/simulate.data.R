@@ -59,3 +59,7 @@ na.count <- function(vect_mat, n_mat){
   sum(value) ## Cantidad NAs total
 }
 
+############################################################################
+### All rights are reserved by the authors.
+### Authors:Andrés Ochoa; Jefferson Peña, Cristian Garcia, Kevin Mosquera
+############################################################################
